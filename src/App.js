@@ -1,6 +1,5 @@
 import React, { useState, useRef, useMemo } from "react";
 import ListItems from "./ListItems";
-import "./App.css";
 
 function App() {
   const [items, setItems] = useState([]);
